@@ -12,13 +12,13 @@
 ## 2. Train
 Use the below command to train the model on Xenium [[Data Link]](https://huggingface.co/datasets/Zeiler123/C3-Diff/resolve/main/Xenium.zip).
 ```
-    python ./super_res_train.py.py 
+    python ./super_res_train.py
 ```
 
 ## 3. Test
 Use the below command to test the model on the database.
 ```
-    python ./super_res_test.py.py 
+    python ./super_res_sample.py
 ```
 
 
