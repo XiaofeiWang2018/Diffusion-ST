@@ -37,7 +37,7 @@ class Xenium_dataset(Dataset):
     def __init__(self, data_root,SR_times,status,gene_num):
 
         if status=='Train':
-            sample_name=['01220101', '01220102', 'NC1', 'NC2', '0418']
+            sample_name=['01220101', '01220102', 'NC1', 'NC2']
             # sample_name = ['NC2']
         elif status=='Test':
             sample_name = ['01220201', '01220202']
